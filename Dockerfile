@@ -8,4 +8,6 @@ RUN npm install --no-dev
 
 COPY . .
 
+EXPOSE 4321
+
 CMD [ "npm", "run", "start-coolify" ]
